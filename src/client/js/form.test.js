@@ -1,21 +1,25 @@
 
     
-            // importing funtions
+            // importing 
                 const handleSubmit = require('./formHandler');
                 const postData = require("./postData")
+              
 
 
-            // checking if both function exit
+            // checking if both function exist
             
-            //  handleSubmit Data
-                test('test if function exits', ()=>{ 
+           
+                test('test if function exists', ()=>{ 
                         expect(handleSubmit).toBeDefined()
 
                 });
 
-                // postData function
-                test('test if function exits', ()=>{ 
+
+        
+                test('test if function exists', ()=>{ 
                         expect(postData).toBeDefined()
 
                 });
+
+               
 
